@@ -1,0 +1,10 @@
+D:\КУРСОВА\EmlDep\EmployersDepartment\DBDepartment\bin\Debug\DBDepartment.dacpac
+D:\КУРСОВА\EmlDep\EmployersDepartment\DBDepartment\bin\Debug\DBDepartment.dll
+D:\КУРСОВА\EmlDep\EmployersDepartment\DBDepartment\bin\Debug\DBDepartment.pdb
+D:\КУРСОВА\EmlDep\EmployersDepartment\DBDepartment\obj\Debug\Model.xml
+D:\КУРСОВА\EmlDep\EmployersDepartment\DBDepartment\obj\Debug\refactor.xml
+D:\КУРСОВА\EmlDep\EmployersDepartment\DBDepartment\obj\Debug\postdeploy.sql
+D:\КУРСОВА\EmlDep\EmployersDepartment\DBDepartment\obj\Debug\predeploy.sql
+D:\КУРСОВА\EmlDep\EmployersDepartment\DBDepartment\obj\Debug\DBDepartment.dll
+D:\КУРСОВА\EmlDep\EmployersDepartment\DBDepartment\obj\Debug\DBDepartment.pdb
+D:\КУРСОВА\EmlDep\EmployersDepartment\DBDepartment\obj\Debug\DBDepartment.sqlprojAssemblyReference.cache

@@ -1,0 +1,9 @@
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\bin\Debug\DataLibrary.dll
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\bin\Debug\DataLibrary.pdb
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\bin\Debug\Dapper.dll
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\bin\Debug\Dapper.xml
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\obj\Debug\DataLibrary.dll
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\obj\Debug\DataLibrary.pdb

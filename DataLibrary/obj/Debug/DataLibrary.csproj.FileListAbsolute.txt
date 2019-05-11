@@ -7,3 +7,6 @@ D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\bin\Debug\Dapper.xml
 D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
 D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\obj\Debug\DataLibrary.dll
 D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\obj\Debug\DataLibrary.pdb
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\bin\Debug\DataLibrary.dll.config
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\bin\Debug\EntityFramework.dll
+D:\КУРСОВА\EmlDep\EmployersDepartment\DataLibrary\bin\Debug\EntityFramework.xml

@@ -30,11 +30,11 @@ namespace DataLibrary.DataAccess
                 return cnn.Execute(sql,data);
             }
         }
-        public static int DeleteData<T>(string sql, T data)
+        public static int DeleteData(string sql,int id)
         {
             using (IDbConnection cnn = new SqlConnection(GetConnectionString()))
             {
-                return cnn.Execute(sql,data);
+                return cnn.Execute(sql, new { Id = id });
             }
         }
     }

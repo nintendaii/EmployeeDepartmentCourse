@@ -82,3 +82,8 @@ D:\КУРСОВА\EmlDep\EmployersDepartment\EmployersDepartment\bin\DataLibrary
 D:\КУРСОВА\EmlDep\EmployersDepartment\EmployersDepartment\bin\Dapper.dll
 D:\КУРСОВА\EmlDep\EmployersDepartment\EmployersDepartment\bin\DataLibrary.pdb
 D:\КУРСОВА\EmlDep\EmployersDepartment\EmployersDepartment\bin\Dapper.xml
+D:\КУРСОВА\EmlDep\EmployersDepartment\EmployersDepartment\bin\DBDepartment.dll
+D:\КУРСОВА\EmlDep\EmployersDepartment\EmployersDepartment\bin\EntityFramework.dll
+D:\КУРСОВА\EmlDep\EmployersDepartment\EmployersDepartment\bin\DataLibrary.dll.config
+D:\КУРСОВА\EmlDep\EmployersDepartment\EmployersDepartment\bin\DBDepartment.pdb
+D:\КУРСОВА\EmlDep\EmployersDepartment\EmployersDepartment\bin\EntityFramework.xml

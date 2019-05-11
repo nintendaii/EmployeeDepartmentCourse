@@ -61,7 +61,7 @@ namespace EmployersDepartment.Controllers
         {
             if (ModelState.IsValid)
             {
-                int record=CreateEmployee(model.FirstName,
+                    CreateEmployee(model.FirstName,
                     model.LastName,
                     model.Age,
                     model.Email,
@@ -72,16 +72,26 @@ namespace EmployersDepartment.Controllers
 
             return View();
         }
-        public ActionResult DeleteEmployee()
+        public ActionResult DeleteEmployee(int id)
         {
-            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DBDepartmnet;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-            ViewBag.Message="Delete Employee";
-            SqlConnection connection = new SqlConnection(connectionString);
-            connection.Open();
-            SqlCommand command = new SqlCommand("delete from dbo.Employee where Id=2002", connection);
-            command.ExecuteNonQuery();
-            connection.Close();
-            return RedirectToAction("ViewEmployees");
+            var data = LoadEmployees();
+            
+        }
+
+        // POST: Empl/Delete/5
+        [HttpPost]
+        public ActionResult DeleteEmployee(int id, FormCollection collection)
+        {
+            try
+            {
+                // TODO: Add delete logic here
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
         }
     }
 }

@@ -45,12 +45,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
-    <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -126,11 +129,16 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PositionController.cs" />
+    <Compile Include="Controllers\SpecialityController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\EmployeeModel.cs" />
+    <Compile Include="Models\PositionModel.cs" />
+    <Compile Include="Models\SpecialityModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -173,9 +181,15 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\AddEmployee.cshtml" />
     <Content Include="Views\Home\ViewEmployees.cshtml" />
+    <Content Include="Views\Speciality\ViewSpecialities.cshtml" />
+    <Content Include="Views\Speciality\AddSpeciality.cshtml" />
+    <Content Include="Views\Position\ViewPositions.cshtml" />
+    <Content Include="Views\Position\AddPosition.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Employee\" />
+    <Folder Include="Views\Empl\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -194,6 +208,10 @@
     <ProjectReference Include="..\DataLibrary\DataLibrary.csproj">
       <Project>{bdcabaad-460e-4e0f-be5e-242d53b82472}</Project>
       <Name>DataLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBDepartment\DBDepartment.sqlproj">
+      <Project>{9738b0bc-3ee5-4057-be44-6c04b3b21c66}</Project>
+      <Name>DBDepartment</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
